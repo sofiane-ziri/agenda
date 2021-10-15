@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* MONTH MONTH MONTH MONTH MONTH  */
+body
+{
+ background-image: url(images/O928YN0.jpg);
+}
+.month {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+  align-items: center;
+  
+}
+h2 {
+  font-size: 80px;
+}
+h1 {
+  font-size: 100px;
+}
+
+/* DAYS DAYS DAYS DAYS DAYS  */
+
+.agenda {
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  width: 70%;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  background-color: whitesmoke;
+}
+
+/* HOURS HOURS HOURS HOURS HOURS  */
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 4px;
+  background-color: white;
+}
+
+
+/* EVENEMENT  EVENEMENT EVENEMENT EVENEMENT EVENEMENT EVENEMENT*/
+
+.evenement {
+  /* background-color: purple; */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+  padding-bottom: 20px;
+}
+a {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  display: flex;
+}
+a :hover {
+  padding: 3%;
+  margin: 3%;
+}
+
+/* FORMULAIRE FORMULAIRE FORMULAIRE FORMULAIRE FORMULAIRE FORMULAIRE  */
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.formulaire
+{
+  padding: 5%;
+}
+h3
+{
+  font-size: 30px;
+}
+input[type="text"], select, textarea {
+  width: 98%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: purple;
+}
+.bouton {
+  display: flex;
+  justify-content: space-between;
+}
+/* Clear floats after the columns */
+.bouton:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

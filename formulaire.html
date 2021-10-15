@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header></header>
+    <div class="formulaire">
+
+        <h3>Ajoutez un evenment</h3>
+
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="row">
+
+                    <label for="fname">Date</label>
+
+                    <select id="date" name="date">
+                        <option value="australia">Lundi</option>
+                        <option value="canada">Mardi</option>
+                        <option value="usa">Mercredi</option>
+                        <option value="usa">Jeudi</option>
+                        <option value="usa">Vendredi</option>
+                        <option value="usa">Samedi</option>
+                        <option value="usa">Dimanche</option>
+                    </select>
+
+                </div>
+
+                <label for="hours">Horaires</label>
+
+                <select id="hours" name="horaires">
+                    <option value="horaires">07h00</option>
+                    <option value="horaires">08h00</option>
+                    <option value="horaires">09h00</option>
+                    <option value="horaires">10h00</option>
+                    <option value="horaires">11h00</option>
+                    <option value="horaires">12h00</option>
+                    <option value="horaires">13h00</option>
+                    <option value="horaires">14h00</option>
+                    <option value="horaires">15h00</option>
+                    <option value="horaires">16h00</option>
+                    <option value="horaires">17h00</option>
+                    <option value="horaires">18h00</option>
+                    <option value="horaires">19h00</option>
+                    <option value="horaires">20h00</option>
+                    <option value="horaires">21h00</option>
+                    <option value="horaires">22h00</option>
+                </select>
+
+        </div>
+        <div class="row">
+
+            <label for="event">Evenement</label>
+
+
+            <textarea id="event" name="event" placeholder="Ajouter un evenement.." style="height:200px"></textarea>
+
+        </div>
+        <br>
+        <div class="bouton">
+            <a href="agenda.html">Retour</a> <input type="submit" value="Ajouter">
+        </div>
+        </form>
+    </div>
+
+
+
+    <footer></footer>
+
+    </div>
+</body>
+
+</html>
